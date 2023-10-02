@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <h4><b>ETH085</b></h4>
+    <p class="w3-text-grey">Journal Entries</p>
+  </div>
+  <div class="w3-bar-block">
+
+<a href="new_index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Page 1</a> 
+
+<a href="new_page2.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Page 2</a> 
+
+<a href="new_page3.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Page 3</a> 
+
+<a href="new_page4.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Page 4</a> 
+
+  </div>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>Column of the americas</b></h1>
+    <h4>By Roberto Rodriguez and Patrisia Gonzales</h4>
+    <div class="w3-section w3-bottombar w3-padding-16">
+    </div>
+    </div>
+  </header>
+  
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+
+<div class="moon">
+  <div class="disc"></div>
+</div>
+
+<h3>Full Moon</h3>
+<p>with the full moon I plan on getting rid of my preconceived ideas of generational trauma. Generational trauma is a very real issue that faces various groups due to various reasons. While the issue is a systemic one I don't believe that looking at the issue solely from this lens is beneficial to the people facing the issue. For example a person that is in their position due to generational issues will not feel empowered being told that the only way that they can get out of the situation they are in is through these huge systemic changes and if it doesn't happen then they just have to sit around and suffer. I think this is a terrible thing to tell people. While I agree that these changes are necessary I believe a more individualist approach would be far more beneficial.  Because of this I disagree with this notion that individualistic approaches are not a viable choice. I believe that this is the real way of combating the issue not through these broad strokes but through solving peoples real everyday issues. Whether it be educating on spending habits such as budgeting. Or getting more people into school as having educated parents is a large contributor to how a child will do in the future.  I also don't believe that reparations would be a viable choice either. Time and time again we have seen that simply throwing a bunch of money at an issue will never solve it. I also find an issue with the idea that culture can be one size fits all to the problems facing victims of generational trauma. As generations conform to the idea that they are unable to leave their situation it becomes ingrained and slowly actually becomes the culture. For example the topics talked about in rap music. The topics are usually darker topics of robbery and gunfights. The reason for this is that this is the reality of these people. Media in many ways is a reflection of society. In many ways it is a modern form of poetry where people are grieving about the ways in which their society and culture has failed them. </p>
+
+<h3>New Moon</h3>
+<p>With the new moon I wish to attract a deeper understanding of the topic of generational trauma. This can come in many ways whether it be through understanding the aftermath of what generational trauma can do or looking at what causes it in the first place. Another option would be to look at statistics to form an objective understanding of the issue at hand. An example of this would be to look at the areas that people are disproportionately being represented. An example of this would be prison statistics as latinos make up almost 60% of prisoners in the United states. This cannot be a coincidence as they are not the majority population and have no proclivities to violence. Because of this, looking deeper into the systemic problems that cause this and coming up with real solutions is a necessary step to take to gain a proper understanding of what is going on. </p>
+
+    
+    
+  
+  <!-- Footer -->
+ <footer>
+      <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><button>Back to Top</button></a> 
+ </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>

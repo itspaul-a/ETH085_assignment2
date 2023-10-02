@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page 3</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <h4><b>ETH085</b></h4>
+    <p class="w3-text-grey">Journal Entries</p>
+  </div>
+  <div class="w3-bar-block">
+
+<a href="new_index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Page 1</a> 
+
+<a href="new_page2.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Page 2</a> 
+
+<a href="new_page3.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Page 3</a> 
+
+<a href="new_page4.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Page 4</a> 
+
+  </div>
+
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>In the Spirit of the ancestors: Reconciling Post Tribal Stress Disorder</b></h1>
+    <h4>by Patrisia Gonzales</h4>
+    <div class="w3-section w3-bottombar w3-padding-16">
+    </div>
+    </div>
+  </header>
+  
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+
+<div class="moon">
+  <div class="disc"></div>
+</div>
+
+<h3>full Moon</h3>
+<p>With the full moon I plan on releasing the frustration that I feel from people that group all spanish speaking or brown people together. I can personally attest to having dealt with this due to my family coming from Chile. Growing up it was rare to find people that actually knew what chile was let alone find it on a map. Because of this I would always be categorized as mexican. While it did not bother me to be called Mexican it would have still felt better to have my true roots be recognized. </p>
+<h3>new Moon</h3>
+<p>With the new moon I wish to attract new and informed people on the various cultures and deviations of latinos. The reason for this is that I believe people can be quick to form patterns in their mind that might not actually exist. For example when I say that people don't know where Chile is I am only basing this on my own experiences which is not enough to truly form an opinion about an entire population. It could very much be the case that my situation is an anomaly or I have formed a pattern of people that categorize all spanish speakers as mexican and it could be the case that this isn't reality. Because of this I believe meeting people with these thought processes similar to my own would help better analyze people's true way of thinking rather than generalizing due to a few bad experiences.</p>
+    
+    
+  
+  <!-- Footer -->
+ <footer>
+      <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><button>Back to Top</button></a> 
+ </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
